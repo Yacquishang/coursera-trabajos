@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Razas de Perros</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:skyblue;
+   }
+h1 {
+  text-align:center;
+  margin-bottom: 25px;
+}
+h2{
+  text-align: right;
+  display: block;
+ }
+p {
+  border: 1px solid black;
+  width: 180%;
+  height: px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+}
+#box1 {
+  background-color: yellowgreen;
+  text-align: justify;
+  padding: 20px; 
+  border: 2px solid black;
+  width:  400px;
+  height: 300px ;
+  margin-top: 02px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+#box2 {
+  background-color: lightpink;
+  text-align: justify;
+  padding: 20px; 
+  border: 2px solid black;
+  width:  400px;
+  height: 300px ;
+  margin-top: 02px;
+  margin-right: 10px;
+  margin-left: 10px;
+  }
+
+
+#box3 {
+  background-color: aquamarine;
+  text-align: justify;
+  padding: 20px; 
+  border: 2px solid black;
+  width:  400px;
+  height: 300px ;
+  margin-top: 02px;
+  margin-right: 10px;
+  margin-left: 10px
+  }
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 767px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<h1>¡Aprende sobre razas de Perros!</h1>
+
+<div class="row">
+  <div class="col-lg-3 col-md-6">
+    <h2>Basset Hound</h2>
+    <p id="box1">Pertenece al grupo de los sabuesos y proviene de San Huberto, Francia, donde un noble aficionado a la caza eligió a esta raza para sus cacerías privadas. Tienen un aspecto singular que hace que tengan admiradores por el mundo entero porque son unos perros notoriamente más largos que altos, diseñados para seguir el rastro de una presa en terrenos difíciles, son excelentes compañeros para la caza aunque hoy en día la mayoría de amantes de los animales prefieren adoptarlos como a otra mascota, sin reparar en estas cualidades.</p></div>
+
+  <div class="col-lg-3 col-md-6">
+    <h2>El Pastor de Bérgamo</h2>
+    <p id="box2">El Pastor de Bérgamo o bergamasco es un perro que se caracteriza por su denso pelaje, es una raza sumamente inteligente y paciente, por lo que es muy recomendable como primer perro para los niños. De origen italiano, el Pastor de Bérgamo fue criado para vagar por los campos guiando y protegiendo los rebaños de sus dueños. Posee un instinto muy protector y un temperamento calmado. Son ideales como perros de hogar, de salvamento o terapéutico (niños y ancianos).</p></div>
+
+  <div class="col-lg-3 col-md-6">
+    <h2>Bóxer</h2>
+    <p id="box3">A pesar de su tamaño (los machos pueden pesar más de 35 kilos) y su aspecto corpulento y musculoso, es un perro afable y muy cariñoso. De hecho, es una de las razas de perro más recomendadas para niños. Además, son mascotas muy fieles y apegados a sus dueños y les protegerán de los extraños. Es extraño que ladren.</p></div>
+  </div>
+
+</body>
+</html>
